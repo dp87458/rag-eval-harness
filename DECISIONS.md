@@ -16,3 +16,9 @@ In offline mode, the local model answers in under 10 seconds on my laptop.
 These are guesses. I will revise them after the first results and note why.
 
 What I expect to be the hardest part - Writing 50 good questions with correct answers by hand, because they need to cover different kinds of queries (exact facts, vague questions, questions that need several sections) and I have to find each answer myself. The second hard part is deciding how to judge whether the chatbot’s answer is correct, because two answers can be worded differently and both be right.
+
+
+## Decision 2: Which documentation (2026-11-15)
+- I chose: spaCy usage docs
+- Why: It is an NLP topic that I am studying, so I can judge if an answer is right or wrong. The docs are plain text, so they are easy to load and chunk.
+- What I kept and what I dropped, and why: I kept the 9 main guides (like linguistic features, pipelines, rule-based matching) because they have clear facts I can write questions about. I dropped the release notes because they describe old versions and would give conflicting answers. I dropped the benchmark tables and advanced training pages because they are hard to chunk and I cannot verify answers to them by hand.
